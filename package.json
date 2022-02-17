@@ -1,0 +1,47 @@
+{
+	"name": "aggrid-modules",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"lint": "vue-cli-service lint",
+		"start": "vue-cli-service serve --port 9000",
+		"build": "vue-cli-service build",
+		"serve": "npm run build && http-server -p 9000 --cors='*' ./dist/"
+	},
+	"dependencies": {
+		"@ag-grid-community/client-side-row-model": "^27.0.0",
+		"@ag-grid-community/core": "^27.0.1",
+		"@ag-grid-community/infinite-row-model": "^26.2.0",
+		"@ag-grid-community/vue3": "^27.0.0",
+		"@ag-grid-enterprise/clipboard": "^26.2.0",
+		"@ag-grid-enterprise/excel-export": "^26.2.0",
+		"@ag-grid-enterprise/menu": "^26.2.0",
+		"core-js": "^3.6.5",
+		"vue": "^3.0.0",
+		"vue-router": "^4.0.0-0"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"@vue/cli-plugin-babel": "^4.5.15",
+		"@vue/cli-plugin-eslint": "^4.5.15",
+		"@vue/cli-plugin-router": "^4.5.15",
+		"@vue/cli-plugin-typescript": "^4.5.15",
+		"@vue/cli-service": "^4.5.15",
+		"@vue/compiler-sfc": "3.2.23",
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"@vue/eslint-config-typescript": "^7.0.0",
+		"autoprefixer": "^9.8.8",
+		"babel-plugin-transform-inline-environment-variables": "^0.4.3",
+		"cross-env": "^7.0.3",
+		"eslint": "^6.7.2",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-vue": "^7.0.0",
+		"http-server": "^14.1.0",
+		"prettier": "^2.2.1",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"typescript": "~4.1.5",
+		"webpack-bundle-analyzer": "^4.4.0"
+	}
+}
